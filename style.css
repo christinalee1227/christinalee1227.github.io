@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  margin: 0px;
+}
+
+.text {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-1000px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
