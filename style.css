@@ -1,9 +1,10 @@
 .text {
-  color: black;
+  color: #b71c1c;
   font-size: 50px;
   font-weight: bold;
+  font-family: ui-serif;
   animation-name: move;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-fill-mode: backwards;
   padding: 15px;
 }
@@ -91,7 +92,7 @@
 .ab2 {
   text-decoration: underline;
   font-size: 20px;
-  font-family: monospace;
+  font-family: Georgia, serif;
 }
 
 .container2 {
@@ -132,7 +133,13 @@
   align-item: flex-start;
   justify-content: center;
   font-size: 16px;
+}
 
 .ab3 {
   font-style: italic;
+  font-family: Georgia, serif;
+}
+
+.ab4 {
+  font-family: Georgia, serif;
 }
