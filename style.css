@@ -1,20 +1,16 @@
-body {
-  background-color: black;
-  margin: 0px;
-}
-
 .text {
-  color: white;
-  font-size: 36px;
+  color: black;
+  font-size: 50px;
   font-weight: bold;
   animation-name: move;
   animation-duration: 2s;
   animation-fill-mode: backwards;
+  padding: 15px;
 }
 
 @keyframes move {
   from {
-    transform: translateX(-1000px);
+    transform: translateX(-1500px);
   }
   to {
     transform: translateX(0px);
@@ -25,5 +21,155 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+}
+
+.container1 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  align-item: center;
+  justify-content: center;
+  animation-name: moveEDU;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-fill-mode: forward;
+}
+
+@keyframes moveEDU {
+  from {
+    transform: translateX(-1800px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.title1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.containerrow {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  align-item: center;
+  justify-content: flex-start;
+}
+
+.logo {
+  border-radius: 50%;
+  padding: 12px;
+  length: 350px;
+  width:350px;
+}
+
+.aboutbentley {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-item: flex-start;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.ab1 {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+}
+
+.ab1:hover {
+  grow-shadow: 2px;
+  tex-decoration: none;
+}
+
+.ab2 {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.container2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+  align-item: center;
+  justify-content: center;
+  animation-name: moveIntern;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-fill-mode: forward;
+}
+
+@keyframes moveIntern {
+  from {
+    transform: translateX(1800px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+
+.internlogo {
+  border-radius: 50%;
+  padding: 12px;
+  length: 200px;
+  width:200px;
+}
+
+.kpmg {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-item: flex-start;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.ab3 {
+  font-style: italic;
+}
+
+.container3 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+  align-item: center;
+  justify-content: center;
+  animation-name: moveLeader;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-fill-mode: forward;
+}
+
+@keyframes moveLeader {
+  from {
+    transform: translateX(-1800px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+
+.container4 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+  align-item: center;
+  justify-content: center;
+  animation-name: moveIntern;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-fill-mode: forward;
 }
