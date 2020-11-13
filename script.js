@@ -9,4 +9,3 @@ function divWrapper(x, index) {
 var result = charArray.map(divWrapper).join("")
 
 containerDiv.innerHTML = result
-
