@@ -1,10 +1,10 @@
 .text {
-  color: #b71c1c;
+  color: black;
   font-size: 50px;
   font-weight: bold;
   font-family: ui-serif;
   animation-name: move;
-  animation-duration: 1s;
+  animation-duration: 0.1s;
   animation-fill-mode: backwards;
   padding: 15px;
 }
